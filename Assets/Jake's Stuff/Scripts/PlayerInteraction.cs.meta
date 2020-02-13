@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e0c6bc9a12291440a87d364eb808f82f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - objectHolder: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - buttonPromptPrefab: {fileID: 4285641382664625022, guid: 89280dc45421fc24eac9b4b46ea9b68b,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

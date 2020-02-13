@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7580084759537874864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7580084759537874870}
+  - component: {fileID: 7580084759537874871}
+  - component: {fileID: 5853652522812997847}
+  - component: {fileID: 7683097363836087004}
+  - component: {fileID: 5818500677559652552}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7580084759537874870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7580084759537874864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7580084759537874871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7580084759537874864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a5e6efaadb61f48824faa7e196e80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ingredientPrefabs:
+  - {fileID: 7601921931043815140, guid: 3c27cc5c97aeca2408268e686f7dc8d9, type: 3}
+  - {fileID: 5169899092068123131, guid: 9449a9625c708a241875cbd11b5f7495, type: 3}
+  - {fileID: 3429126218997505459, guid: 1940ef6bcc15b9248b942591d97e4c4d, type: 3}
+  - {fileID: 6634350435163238391, guid: 91b3b5fa954c77942abe802a1c85cf87, type: 3}
+  - {fileID: 3952941688453258159, guid: 1671bb1f0c4c9d84b9269b2397c92ed4, type: 3}
+  time: 60
+  PB: {fileID: 0}
+  ui: {fileID: 0}
+  ingredientsCollected: 0
+  defaultSpawnPoints:
+  - {x: -8.36, y: 2.46, z: -17.41}
+  - {x: -8.36, y: 2.46, z: -5.76}
+  - {x: -0.69, y: 2.46, z: -11.66}
+  - {x: 8.14, y: 2.46, z: -16.8}
+  gameCam: {fileID: 0}
+  shakeAmount: 2
+  floorRend: {fileID: 0}
+  iceMat: {fileID: 2100000, guid: 3c204e1a0dd2e86448ca2be946557919, type: 2}
+  floorMat: {fileID: 2100000, guid: 71459c1b22fa2274790b209acc12c88c, type: 2}
+  snowParticleSystem: {fileID: 0}
+  icycles: {fileID: 0}
+  blackHoleObject: {fileID: 0}
+  Bookshelves:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  blackHoleRunning: 0
+  endCam: {fileID: 0}
+  playerWins: 0
+  instructionsText: {fileID: 0}
+  instructionsTimeTillGone: 3
+  instructionsBox: {fileID: 0}
+  ingredientsListAnim: {fileID: 0}
+  instructionsAnim: {fileID: 0}
+  ingredientsCollectedText: {fileID: 0}
+--- !u!114 &5853652522812997847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7580084759537874864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf64495ffde6f748961c9be4f596ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ingredientsList: {fileID: 0}
+  ingredientStrikethrough: {fileID: 0}
+  blurImage: {fileID: 0}
+  timer: {fileID: 0}
+--- !u!114 &7683097363836087004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7580084759537874864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 921740ac408bbe247be47251a5bd50ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  environment: {fileID: 0}
+  mazeHolders:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  shiftSpeed: 200
+--- !u!114 &5818500677559652552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7580084759537874864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e785df03e3ee2e342bcb5544fb454f61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rockPrefab: {fileID: 4413506487274581681, guid: 0cafcd08274939b4b9376015df15bb35,
+    type: 3}
+  highlightPrefab: {fileID: 8854698269416795597, guid: 9f5054463c4360944b1f406e2ac38465,
+    type: 3}
+  floor: {fileID: 0}
+  innerHighlight: {fileID: 2100000, guid: 20a2f5fba5ca6c24a8203c43ebd75a3b, type: 2}
+  fling: 0

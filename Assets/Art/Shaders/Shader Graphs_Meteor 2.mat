@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Meteor 2
+  m_Shader: {fileID: -6465566751694194690, guid: 039e998d76db52941b677fed2395b5d8,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_985C543A:
+        m_Texture: {fileID: 2800000, guid: 7afeddee7856ad4429b34a0ea60341ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_231CDFA5: 0
+    - Vector1_2C6EB21D: 5
+    - Vector1_8B58287A: 0.9
+    - Vector1_AF2F8FF4: 25
+    - Vector1_BA2045E4: 0
+    - Vector1_D8DEA472: 3
+    - Vector1_DD239934: 0
+    - Vector1_E8D773EE: 2
+    m_Colors:
+    - Color_5CE4E171: {r: 0, g: 0, b: 0, a: 0}
+    - Color_8FF1F4EC: {r: 0.38679248, g: 0.21958451, b: 0.0054734685, a: 0}
+    - Color_91B9A25A: {r: 7.999999, g: 3.5183241, b: 1.7172773, a: 0}
+    - Vector2_4F388663: {r: 0.1, g: 0, b: 0, a: 0}
+    - Vector2_5322A7DD: {r: -0.1, g: 0.1, b: 0, a: 0}
